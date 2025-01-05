@@ -8,7 +8,7 @@ import 'package:komodo_cex_market_data/src/models/coin_ohlc.dart';
 /// A provider class for fetching data from the Binance API.
 class BinanceProvider {
   /// Creates a new BinanceProvider instance.
-  const BinanceProvider({this.apiUrl = 'https://api.binance.com/api/v3'});
+  const BinanceProvider({this.apiUrl = 'https://api.binance.us/api/v3'});
 
   /// The base URL for the Binance API.
   /// Defaults to 'https://api.binance.com/api/v3'.
